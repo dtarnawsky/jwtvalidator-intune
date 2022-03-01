@@ -1,5 +1,5 @@
 ## C# JWT Validator
-This project was created by starting with the new project wizard for Web APIs in Visual Studio 2022.
+This project was created by starting with the new project wizard for Web APIs in Visual Studio 2022. The goal of this sample project is to create an Web API in c# that will validate the ID Token supplied by your Ionic Application that uses the Microsoft Intune plugin. 
 
 In `Startup.cs` the following line was added:
 `services.AddMicrosoftIdentityWebApiAuthentication(Configuration, "AzureAd");`
